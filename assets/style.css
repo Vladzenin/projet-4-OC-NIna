@@ -27,6 +27,10 @@ body {
 	font-family: 'Inter';
 	font-style: normal;
 }
+
+img {
+    aspect-ratio: attr(width) / attr(height);
+}
 .top-header {
 	background-color: white;
 	position: sticky;

@@ -69,8 +69,9 @@
 	</script>
 	
 </head>
+
 <body>
-<div class="top-header">
+<div class="top-header" role="navigation">
 	<h1 class="name">Nina Carducci</h1>
 	<div class="nav">   
 		<ul>
@@ -83,7 +84,8 @@
 		</ul>
 	</div>
 </div>
-<div id="header">
+
+<header id="header" role="banner">
 
 	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 		<div class="carousel-indicators">
@@ -149,8 +151,11 @@
 			<span class="visually-hidden">Next</span>
 		</button>
 	</div>
-</div>
-<div id="about">
+</header>
+
+<main role="main"></main>
+
+<section id="about">
 	<div class="picture left">
 		<img src="./assets/images/nina.webp" srcset="
 		./assets/images/nina/nina-400w.webp   400w,
@@ -182,7 +187,8 @@
 			 de la
 			 tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
 	</div>
-</div>
+</section>
+
 <div id="gallery">
 	<h3 class="title">Portfolio</h3>
 	<div class="container py-3">
@@ -323,7 +329,7 @@
 		</div>
 	</div>
 </div>
-<div class="quote">
+<section class="quote" role="complementary">
 	<figure>
 		<blockquote>
 			<h1 class="quote__text">De manière inconsciente, je crois, je guette un regard, 
@@ -332,7 +338,10 @@
 		</blockquote>
 		<figcaption class="quote__author">- Richard Avedon</figcaption>
 	</figure>
-</div>
+</section>
+
+</main>
+
 <div id="contact">
 	<div class="container">
 		<div class="form-container">
